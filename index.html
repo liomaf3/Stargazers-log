@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main>
+      <p class="eyebrow">Open source collection</p>
+      <h1>Starred repositories</h1>
+      <p class="intro">A running log of projects worth keeping close.</p>
+
+      <section aria-labelledby="list-title">
+        <div class="list-heading">
+          <h2 id="list-title">Recently starred</h2>
+          <span id="repo-count" aria-live="polite">Loading...</span>
+        </div>
+        <ul id="repo-list" aria-label="Starred repositories"></ul>
+        <p id="status" role="status" aria-live="polite"></p>
+      </section>
+    </main>
   </body>
 </html>
