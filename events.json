@@ -1,0 +1,26 @@
+[
+  {
+    "name": "freeCodeCamp",
+    "owner": "freeCodeCamp",
+    "description": "Learn to code for free with millions of other people.",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "language": "TypeScript",
+    "starredAt": "2026-09-24"
+  },
+  {
+    "name": "Python",
+    "owner": "TheAlgorithms",
+    "description": "Open source resource for learning data structures and algorithms.",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "language": "Python",
+    "starredAt": "2026-08-18"
+  },
+  {
+    "name": "public-apis",
+    "owner": "public-apis",
+    "description": "A collective list of free APIs for use in software and web development.",
+    "url": "https://github.com/public-apis/public-apis",
+    "language": "Python",
+    "starredAt": "2026-07-03"
+  }
+]
